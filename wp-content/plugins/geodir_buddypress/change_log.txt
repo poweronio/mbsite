@@ -1,0 +1,22 @@
+v1.0.5
+Option added to show featured image in activity for new listing submitted - ADDED
+Load plugin files only when BuddyPress active - ADDED
+Changes made for WPML compatibility - CHANGED
+
+v1.0.4
+Some PHP notices resolved - FIXED
+
+v1.0.3
+Option for login redirect added - ADDED
+Filter added for favourite text 'gdbuddypress_favourites_text' - ADDED
+Docblocks - ADDED
+
+v1.0.2
+Checked for XSS vulnerabilities as per latest WP security update for add_query_arg(), vulnerability found if using category sort_by options - SECURITY UPDATE
+
+
+v1.0.1
+Buddypress profile menu not translated - FIXED
+
+v1.0.0
+Initial release

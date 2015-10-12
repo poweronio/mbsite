@@ -1,0 +1,10 @@
+/*------------------------------------------------------------------
+  [17. WooCommerce]
+-------------------------------------------------------------------*/
+
+.woocommerce-account #primary .woocommerce {
+	padding: 60px;
+	border: 2px solid $cloud;
+	margin-bottom: 20px;
+	@include border-radius(6px);
+}

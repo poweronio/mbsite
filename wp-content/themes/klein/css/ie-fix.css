@@ -1,0 +1,36 @@
+/**
+ * IE FIX CSS
+ *
+ * @package Klein
+ * @since version 1.0
+ */
+ 
+
+.woocommerce .woocommerce-ordering,.woocommerce-page .woocommerce-ordering {
+	margin-right: 10px;
+}
+
+.woocommerce table.cart td.actions .coupon{
+	width: 200px;
+}
+.woocommerce table.cart td.actions .coupon label{
+	display: none;
+}
+
+.container {
+max-width: 980px!important;
+}
+
+#groups-directory-form select{
+	width: 200px!important;
+}
+
+select{
+	width: 100%!important;
+	box-sizing: border-box!important;
+	max-width: 100%!important;
+}
+img{
+	width: auto;
+}
+

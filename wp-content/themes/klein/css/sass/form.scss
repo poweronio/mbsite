@@ -1,0 +1,89 @@
+/*------------------------------------------------------------------
+  [5. Forms]
+-------------------------------------------------------------------*/
+
+select,
+textarea,
+input[type=text],
+input[type=password],
+input[type=date],
+input[type=datetime],
+input[type=datetime-local],
+input[type=month],
+input[type=time],
+input[type=email],
+input[type=number], 
+input[type=range],
+input[type=search],
+input[type=tel],
+input[type=url],
+input[type=week] {
+	padding: 8px 12px;
+	display: inline-block;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	border: 1px solid #bdc3c7;
+	outline: 0;
+	margin-bottom: 20px;
+	height: 42px;
+	display: block;
+	width: 100%;
+	max-width: 100%;
+	-webkit-transition: border .25s linear,color .25s linear,background-color .25s linear;
+	transition: border .25s linear,color .25s linear,background-color .25s linear;
+	background: $cloud;
+
+	-webkit-box-shadow: inset 0px 0px 14px -6px #7F8C8D;
+	-moz-box-shadow: inset 0px 0px 14px -6px #7F8C8D;
+	box-shadow: inset 0px 0px 14px -6px #7F8C8D;
+
+	&:focus {
+		border-color: $primary;
+		background: $white;
+	}
+}
+select {
+	height: 36px;
+}
+
+textarea {
+	height: auto;
+	min-height: 35px;
+}
+
+input[type='submit'].loading,
+input[type='reset'].loading,
+input[type='button'].loading,
+li.load-more.loading a,
+button.loading,
+.btn.loading
+{
+    &:after {
+        content: "\f110";
+        font-family: FontAwesome;
+        margin-left: 5px;
+        margin-right: 0;
+        -webkit-animation: fa-spin 2s infinite linear;
+        animation: fa-spin 2s infinite linear;
+    }
+
+}
+
+/* Fix for odd Mozilla 
+   border & padding issues */
+   
+button::-moz-focus-inner,
+input::-moz-focus-inner
+{
+    padding: 0;
+
+    border: 0;
+}
+
+button,
+.button,
+.btn
+{
+    outline: 0;
+}

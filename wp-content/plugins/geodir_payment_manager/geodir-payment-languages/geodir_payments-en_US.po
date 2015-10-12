@@ -1,0 +1,1647 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: GeoDirectory Payment Manager 1.2.5\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-08-19 17:34-0000\n"
+"PO-Revision-Date: 2015-08-19 17:34-0000\n"
+"Last-Translator: \n"
+"Language-Team: GeoDirectory <info@wpgeodirectory.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e;_n:1,2;_n_noop:1,2;"
+"_nx:1,2\n"
+"X-Poedit-Basepath: ../\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 1.7.5\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: authorizenet/authorizenet.php:6
+msgid "Card Holder Name :"
+msgstr ""
+
+#: authorizenet/authorizenet.php:15
+msgid "Credit/Debit Card number :"
+msgstr ""
+
+#: authorizenet/authorizenet.php:24
+msgid "Expiry Date :"
+msgstr ""
+
+#: authorizenet/authorizenet.php:26
+msgid "month"
+msgstr ""
+
+#: authorizenet/authorizenet.php:52
+msgid "CV2 (3 digit security code) :"
+msgstr ""
+
+#: gd_update.php:73
+msgid ""
+"An Unexpected HTTP Error occurred during the API request.</p> <p><a href=\"?"
+"\" onclick=\"document.location.reload(); return false;\">Try again</a>"
+msgstr ""
+
+#: gd_update.php:77
+msgid "An unknown error occurred"
+msgstr ""
+
+#: gd_update.php:105
+msgid ""
+"Login details for GeoDirectory failed! Please check GeoDirectory > Auto "
+"Updates and that your membership is active."
+msgstr ""
+
+#: gd_update.php:106
+msgid ""
+"Login details for GeoDirectory failed! Please check GeoDirectory>Auto "
+"Updates and that your membership is active."
+msgstr ""
+
+#: gd_update.php:163
+msgid "Auto Updates"
+msgstr ""
+
+#: gd_update.php:193
+msgid ""
+"Enter your GeoDirectory membership details to allow you to update plugins "
+"from dashboard"
+msgstr ""
+
+#: gd_update.php:203
+msgid "Geodirectory username/email"
+msgstr ""
+
+#: gd_update.php:206
+msgid "Enter your GeoDirectory username or email"
+msgstr ""
+
+#: gd_update.php:211
+msgid "Geodirectory password"
+msgstr ""
+
+#: gd_update.php:214
+msgid "Enter your GeoDirectory password"
+msgstr ""
+
+#: gd_update.php:224 geodir_payment_template_functions.php:1175
+#: geodir_payment_template_functions.php:1187
+msgid "Save changes"
+msgstr ""
+
+#: geodir-payment-templates/cancel.php:23
+msgid ""
+"Your post has been saved, please contact support to arrange for it to be "
+"published."
+msgstr ""
+
+#: geodir_payment_actions.php:44 language.php:42
+msgid "Are you sure want to delete price?"
+msgstr ""
+
+#: geodir_payment_actions.php:45 language.php:121
+msgid "Please enter Title"
+msgstr ""
+
+#: geodir_payment_actions.php:46
+msgid "Please enter coupon code."
+msgstr ""
+
+#: geodir_payment_actions.php:47
+msgid "Please select post type."
+msgstr ""
+
+#: geodir_payment_actions.php:48
+msgid "Please enter discount amount."
+msgstr ""
+
+#: geodir_payment_actions.php:49
+msgid "Are you sure want to delete coupon?"
+msgstr ""
+
+#: geodir_payment_actions.php:50
+msgid "Recurring times must be blank or greater than 1"
+msgstr ""
+
+#: geodir_payment_actions.php:341 geodir_payment_actions.php:723
+#: geodir_payment_actions.php:965
+#, php-format
+msgid "Payment Details for Listing ID #%s"
+msgstr ""
+
+#: geodir_payment_actions.php:343 geodir_payment_actions.php:725
+#: geodir_payment_actions.php:967
+#, php-format
+msgid "Listing Title: %s"
+msgstr ""
+
+#: geodir_payment_actions.php:345 geodir_payment_actions.php:727
+#: geodir_payment_actions.php:969
+#, php-format
+msgid "Trans ID: %s"
+msgstr ""
+
+#: geodir_payment_actions.php:346 geodir_payment_actions.php:728
+#: geodir_payment_actions.php:970
+#, php-format
+msgid "Status: %s"
+msgstr ""
+
+#: geodir_payment_actions.php:347 geodir_payment_actions.php:729
+#: geodir_payment_actions.php:971
+#, php-format
+msgid "Amount: %s"
+msgstr ""
+
+#: geodir_payment_actions.php:349 geodir_payment_actions.php:731
+#: geodir_payment_actions.php:973
+#, php-format
+msgid "Type: %s"
+msgstr ""
+
+#: geodir_payment_actions.php:350 geodir_payment_actions.php:732
+#: geodir_payment_actions.php:974
+#, php-format
+msgid "Date: %s"
+msgstr ""
+
+#: geodir_payment_actions.php:351 geodir_payment_actions.php:733
+#: geodir_payment_actions.php:975
+#, php-format
+msgid "  Method: %s"
+msgstr ""
+
+#: geodir_payment_actions.php:353 geodir_payment_actions.php:735
+#: geodir_payment_actions.php:977
+msgid "Information Submitted URL"
+msgstr ""
+
+#: geodir_payment_actions.php:700
+msgid ""
+"### The PayPal reciver email address does not match the paypal address for "
+"this site ###<br />"
+msgstr ""
+
+#: geodir_payment_actions.php:701
+msgid "### The paid amount does not match the price package selected ###<br />"
+msgstr ""
+
+#: geodir_payment_actions.php:702
+msgid ""
+"### The currency code returned does not match the code on this site. ###<br /"
+">"
+msgstr ""
+
+#: geodir_payment_actions.php:718
+msgid ""
+"WARNING FRAUD DETECTED PLEASE CHECK THE DETAILS - (IF CORRECT, THEN PUBLISH "
+"THE POST)"
+msgstr ""
+
+#: geodir_payment_actions.php:795
+msgid "ORIGINAL SUBSCRIPTION INFO BELOW"
+msgstr ""
+
+#: geodir_payment_actions.php:822
+msgid ""
+"THIS IS A SUBSCRIPTION SIGNUP AND IF A FREE TRIAL WAS OFFERD NO PAYMENT WILL "
+"BE RECIVED"
+msgstr ""
+
+#: geodir_payment_actions.php:1092 geodir_payment_actions.php:1160
+msgid "<p>payment for Place Listing ID #"
+msgstr ""
+
+#: geodir_payment_actions.php:1096 geodir_payment_actions.php:1164
+msgid "Place Listing Submitted and Payment Success Confirmation Email"
+msgstr ""
+
+#: geodir_payment_actions.php:1413
+msgid "Please enter Cardholder name"
+msgstr ""
+
+#: geodir_payment_actions.php:1418
+msgid "Please enter card number"
+msgstr ""
+
+#: geodir_payment_actions.php:1422
+msgid "Please enter expire date"
+msgstr ""
+
+#: geodir_payment_actions.php:1975 geodir_payment_functions.php:1701
+#: language.php:191
+msgid "Alive Days:"
+msgstr ""
+
+#: geodir_payment_actions.php:1978
+msgid "Expire Date:"
+msgstr ""
+
+#: geodir_payment_actions.php:1986
+msgid "Is Featured:"
+msgstr ""
+
+#: geodir_payment_actions.php:1988 geodir_payment_functions.php:3337
+#: geodir_payment_template_functions.php:52
+#: geodir_payment_template_functions.php:324
+#: geodir_payment_template_functions.php:337
+#: geodir_payment_template_functions.php:432
+#: geodir_payment_template_functions.php:453
+#: geodir_payment_template_functions.php:475
+#: geodir_payment_template_functions.php:489
+#: geodir_payment_template_functions.php:501
+#: geodir_payment_template_functions.php:606
+#: geodir_payment_template_functions.php:959 language.php:72
+msgid "Yes"
+msgstr ""
+
+#: geodir_payment_actions.php:1989 geodir_payment_functions.php:1704
+#: geodir_payment_functions.php:1707 geodir_payment_functions.php:3347
+#: geodir_payment_template_functions.php:321
+#: geodir_payment_template_functions.php:334
+#: geodir_payment_template_functions.php:431
+#: geodir_payment_template_functions.php:452
+#: geodir_payment_template_functions.php:472
+#: geodir_payment_template_functions.php:486
+#: geodir_payment_template_functions.php:500
+#: geodir_payment_template_functions.php:606
+#: geodir_payment_template_functions.php:960 language.php:74
+msgid "No"
+msgstr ""
+
+#: geodir_payment_actions.php:2009
+msgid "Show only on these price packages ? :"
+msgstr ""
+
+#: geodir_payment_actions.php:2025
+msgid ""
+"Want to show only on these price packages ? (Select multiple price packages "
+"by holding down \"Ctrl\" key.)"
+msgstr ""
+
+#: geodir_payment_actions.php:2057
+msgid "Payment methods check"
+msgstr ""
+
+#: geodir_payment_actions.php:2058
+msgid "Checks the payment methods settings for problems."
+msgstr ""
+
+#: geodir_payment_actions.php:2059 geodir_payment_actions.php:2071
+msgid "Run"
+msgstr ""
+
+#: geodir_payment_actions.php:2069
+msgid "Run expire check"
+msgstr ""
+
+#: geodir_payment_actions.php:2070
+msgid "Manually run the expire check function."
+msgstr ""
+
+#: geodir_payment_actions.php:2129
+#, php-format
+msgid "For description you can use up to %d characters only for this package."
+msgstr ""
+
+#: geodir_payment_actions.php:2134
+msgid "You can not add description for this package."
+msgstr ""
+
+#: geodir_payment_actions.php:2203
+msgid "Tags are short keywords, with no space within.(eg: tag1, tag2, tag3)."
+msgstr ""
+
+#: geodir_payment_actions.php:2206
+#, php-format
+msgid ""
+"Tags are short keywords, with no space within.(eg: tag1, tag2, tag3) Up to "
+"%d characters only for this package."
+msgstr ""
+
+#: geodir_payment_actions.php:2211
+msgid "Tags are short keywords, currently tags not allowed for this package."
+msgstr ""
+
+#: geodir_payment_functions.php:7
+msgid "Invoice"
+msgstr ""
+
+#: geodir_payment_functions.php:8 geodir_payment_template_functions.php:17
+#: language.php:22
+msgid "Price"
+msgstr ""
+
+#: geodir_payment_functions.php:9 geodir_payment_functions.php:50
+msgid "Coupons"
+msgstr ""
+
+#: geodir_payment_functions.php:35
+msgid "Prices and Payments"
+msgstr ""
+
+#: geodir_payment_functions.php:38
+msgid "General"
+msgstr ""
+
+#: geodir_payment_functions.php:41
+msgid "Prices"
+msgstr ""
+
+#: geodir_payment_functions.php:44
+msgid "Payments"
+msgstr ""
+
+#: geodir_payment_functions.php:47
+msgid "Invoices"
+msgstr ""
+
+#: geodir_payment_functions.php:53
+msgid "Notifications"
+msgstr ""
+
+#: geodir_payment_functions.php:251
+msgid "Warning!!"
+msgstr ""
+
+#: geodir_payment_functions.php:252
+msgid ""
+"You are about to delete a Geodirectory Adon which has important option and "
+"custom data associated to it."
+msgstr ""
+
+#: geodir_payment_functions.php:252
+msgid ""
+"Deleting this and activating another version, will be treated as a new "
+"installation of plugin, so all the data will be lost."
+msgstr ""
+
+#: geodir_payment_functions.php:252
+msgid ""
+"If you have any problem in upgrading the plugin please contact Geodirectroy"
+msgstr ""
+
+#: geodir_payment_functions.php:252
+msgid "support"
+msgstr ""
+
+#: geodir_payment_functions.php:264
+msgid "Delete plugin files only"
+msgstr ""
+
+#: geodir_payment_functions.php:276
+msgid "Delete both plugin files and data"
+msgstr ""
+
+#: geodir_payment_functions.php:384 geodir_payment_functions.php:429
+msgid "Merchant Id"
+msgstr ""
+
+#: geodir_payment_functions.php:387
+msgid "Example : myaccount@paypal.com"
+msgstr ""
+
+#: geodir_payment_functions.php:392
+msgid "Cancel Url"
+msgstr ""
+
+#: geodir_payment_functions.php:395
+msgid "Example : http://mydomain.com/cancel_return.php"
+msgstr ""
+
+#: geodir_payment_functions.php:400
+msgid "Return Url"
+msgstr ""
+
+#: geodir_payment_functions.php:403
+msgid "Example : http://mydomain.com/return.php"
+msgstr ""
+
+#: geodir_payment_functions.php:408 geodir_payment_functions.php:531
+msgid "Notify Url"
+msgstr ""
+
+#: geodir_payment_functions.php:411
+msgid "Example : http://mydomain.com/notifyurl.php"
+msgstr ""
+
+#: geodir_payment_functions.php:415
+msgid "Paypal"
+msgstr ""
+
+#: geodir_payment_functions.php:432 geodir_payment_functions.php:476
+msgid "Example : 1234567890"
+msgstr ""
+
+#: geodir_payment_functions.php:437
+msgid "Merchant Secret"
+msgstr ""
+
+#: geodir_payment_functions.php:440
+msgid "Example : qk7hAPoe4Fr6eECzPRjFKA"
+msgstr ""
+
+#: geodir_payment_functions.php:444
+msgid "Notify URL"
+msgstr ""
+
+#: geodir_payment_functions.php:447
+msgid ""
+"Important :You MUST set the Postback URL in your Google Wallet settings to: "
+msgstr ""
+
+#: geodir_payment_functions.php:451
+msgid "Google Wallet"
+msgstr ""
+
+#: geodir_payment_functions.php:466
+msgid "Login ID"
+msgstr ""
+
+#: geodir_payment_functions.php:469
+msgid "Example : yourname@domain.com"
+msgstr ""
+
+#: geodir_payment_functions.php:473
+msgid "Transaction Key"
+msgstr ""
+
+#: geodir_payment_functions.php:480
+msgid "Authorize.net"
+msgstr ""
+
+#: geodir_payment_functions.php:494
+msgid "Instant Id"
+msgstr ""
+
+#: geodir_payment_functions.php:497
+msgid "Example : 123456"
+msgstr ""
+
+#: geodir_payment_functions.php:502
+msgid "Account Id"
+msgstr ""
+
+#: geodir_payment_functions.php:505
+msgid "Example : 12345"
+msgstr ""
+
+#: geodir_payment_functions.php:509
+msgid "Worldpay"
+msgstr ""
+
+#: geodir_payment_functions.php:523
+msgid "Vendor ID"
+msgstr ""
+
+#: geodir_payment_functions.php:526
+msgid "Enter Vendor ID Example : 1303908"
+msgstr ""
+
+#: geodir_payment_functions.php:534
+msgid "Example : http://mydomain.com/2co_notifyurl.php"
+msgstr ""
+
+#: geodir_payment_functions.php:538
+msgid "2CO (2Checkout)"
+msgstr ""
+
+#: geodir_payment_functions.php:552
+msgid "Account Name"
+msgstr ""
+
+#: geodir_payment_functions.php:555
+msgid "Enter the bank name to which you want to transfer payment"
+msgstr ""
+
+#: geodir_payment_functions.php:560
+msgid "Account SC"
+msgstr ""
+
+#: geodir_payment_functions.php:563
+msgid "Enter your bank Account Sort Code"
+msgstr ""
+
+#: geodir_payment_functions.php:568
+msgid "Account No"
+msgstr ""
+
+#: geodir_payment_functions.php:571
+msgid "Enter your bank Account Number"
+msgstr ""
+
+#: geodir_payment_functions.php:575
+msgid "Pre Bank Transfer"
+msgstr ""
+
+#: geodir_payment_functions.php:821
+msgid "General Options"
+msgstr ""
+
+#: geodir_payment_functions.php:824
+msgid "Listing expiration settings"
+msgstr ""
+
+#: geodir_payment_functions.php:827
+msgid "Enable expiry process?"
+msgstr ""
+
+#: geodir_payment_functions.php:828
+msgid ""
+" Enable expiry process? (untick to disable) If you disable this option, none "
+"of the place listings will expire in future."
+msgstr ""
+
+#: geodir_payment_functions.php:837
+msgid "Select the listing status after the place listing expires."
+msgstr ""
+
+#: geodir_payment_functions.php:845
+msgid "draft"
+msgstr ""
+
+#: geodir_payment_functions.php:846
+msgid "publish"
+msgstr ""
+
+#: geodir_payment_functions.php:847
+msgid "trash"
+msgstr ""
+
+#: geodir_payment_functions.php:852
+msgid "Enable pre expiry notification to author?"
+msgstr ""
+
+#: geodir_payment_functions.php:853
+msgid ""
+"Enable pre expiry notification to author? (untick to disable) If you disable "
+"the option, pre expiry email notification will stop."
+msgstr ""
+
+#: geodir_payment_functions.php:861
+msgid "Enable pre expiry notice days"
+msgstr ""
+
+#: geodir_payment_functions.php:862
+msgid ""
+"Select number of days before pre expiry notification email will be sent."
+msgstr ""
+
+#: geodir_payment_functions.php:872
+msgid "Display expire date to author in dashboard listings?"
+msgstr ""
+
+#: geodir_payment_functions.php:873
+msgid ""
+"Display expire date to author in dashboard listings? If you tick the option, "
+"listing expire date will be displayed to listing author in dashboard "
+"listings."
+msgstr ""
+
+#: geodir_payment_functions.php:880
+msgid "Display expire date to author in listing detail sidebar?"
+msgstr ""
+
+#: geodir_payment_functions.php:881
+msgid ""
+"Display expire date to author in listing detail sidebar? If you tick the "
+"option, listing expire date will be displayed to listing author in listing "
+"detail sidebar."
+msgstr ""
+
+#: geodir_payment_functions.php:892
+msgid "Geo Directory Manage Currency"
+msgstr ""
+
+#: geodir_payment_functions.php:895
+msgid "Default Currency (Ex.: USD)"
+msgstr ""
+
+#: geodir_payment_functions.php:900
+msgid "USD"
+msgstr ""
+
+#: geodir_payment_functions.php:904
+msgid "Default Currency Symbol (Ex.: $)"
+msgstr ""
+
+#: geodir_payment_functions.php:909
+msgid "$"
+msgstr ""
+
+#: geodir_payment_functions.php:925
+msgid "Payment Emails"
+msgstr ""
+
+#: geodir_payment_functions.php:927
+msgid "Client Emails"
+msgstr ""
+
+#: geodir_payment_functions.php:930
+msgid "Payment success to client email"
+msgstr ""
+
+#: geodir_payment_functions.php:935
+msgid "Acknowledgment for your Payment"
+msgstr ""
+
+#: geodir_payment_functions.php:943
+msgid ""
+"<p>Dear [#client_name#],</p><p>Payment has been successfully received. Your "
+"details are below</p><p>[#transaction_details#]</p><br><p>We hope you enjoy. "
+"Thanks!</p><p>[#site_name#]</p>"
+msgstr ""
+
+#: geodir_payment_functions.php:948
+msgid "Post renew success to client email"
+msgstr ""
+
+#: geodir_payment_functions.php:953 geodir_payment_functions.php:1030
+msgid "Renewal of listing ID:#[#post_id#]"
+msgstr ""
+
+#: geodir_payment_functions.php:961
+msgid ""
+"<p>Dear [#client_name#],</p><p>Your listing [#listing_link#] has been "
+"renewed.</p><p>NOTE: If your listing is not active yet your payment may be "
+"being checked by an admin and it will be activated shortly.</"
+"p><br><p>[#site_name#]</p>"
+msgstr ""
+
+#: geodir_payment_functions.php:966
+msgid "Listing expiration email"
+msgstr ""
+
+#: geodir_payment_functions.php:984
+msgid "Post Upgrade Success to Client Email"
+msgstr ""
+
+#: geodir_payment_functions.php:989 geodir_payment_functions.php:1048
+msgid "Upgrade of listing ID:#[#post_id#]"
+msgstr ""
+
+#: geodir_payment_functions.php:997
+msgid ""
+"<p>Dear [#client_name#],</p><p>Your listing [#listing_link#] has been "
+"upgraded.</p><p>NOTE: If your listing is not active yet your payment may be "
+"being checked by an admin and it will be activated shortly.</"
+"p><br><p>[#site_name#]</p>"
+msgstr ""
+
+#: geodir_payment_functions.php:1003
+msgid "Admin Emails"
+msgstr ""
+
+#: geodir_payment_functions.php:1007
+msgid "Payment success to admin email"
+msgstr ""
+
+#: geodir_payment_functions.php:1012
+msgid "Payment received successfully"
+msgstr ""
+
+#: geodir_payment_functions.php:1020
+msgid ""
+"<p>Dear Admin,</p><p>Payment has been received. Below are the transaction "
+"details.</p><p>[#transaction_details#]</p><br><p>[#site_name#]</p>"
+msgstr ""
+
+#: geodir_payment_functions.php:1025
+msgid "Post renewal success to admin email"
+msgstr ""
+
+#: geodir_payment_functions.php:1038
+msgid ""
+"<p>Dear Admin,</p><p>Listing [#listing_link#] has been renewed. Please "
+"confirm payment and then update the listings published date to todays date. "
+"</p><p>NOTE: If payment was made by paypal the \"published date\" should be "
+"updated automatically. </p><br><p>[#site_name#]</p>"
+msgstr ""
+
+#: geodir_payment_functions.php:1043
+msgid "Post upgrade success to admin email"
+msgstr ""
+
+#: geodir_payment_functions.php:1056
+msgid ""
+"<p>Dear Admin,</p><p>Listing [#listing_link#] has been upgraded. Please "
+"confirm payment and then update the listings published date to todays date. "
+"</p><p>NOTE: If payment was made by paypal the \"published date\" should be "
+"updated automatically. </p><br><p>[#site_name#]</p>"
+msgstr ""
+
+#: geodir_payment_functions.php:1061
+msgid "Payment fail to admin email"
+msgstr ""
+
+#: geodir_payment_functions.php:1066
+msgid "IPN INVALID - Place Listing Submitted"
+msgstr ""
+
+#: geodir_payment_functions.php:1074
+msgid ""
+"<p>Dear Admin,</p><p>Paypal IPN Invaid for listing ID: #[#post_id#]</"
+"p><p>Please manually check your paypal logs, and if payment was received "
+"manually publish the listing.</p><p>[#listing_link#]</"
+"p><br><p>[#site_name#]</p>"
+msgstr ""
+
+#: geodir_payment_functions.php:1244 geodir_payment_functions.php:1713
+#: language.php:199
+msgid "Free"
+msgstr ""
+
+#: geodir_payment_functions.php:1244
+msgid "Free: number of publish days are unlimited (0.00 "
+msgstr ""
+
+#: geodir_payment_functions.php:1671 language.php:126 language.php:175
+msgid "Type"
+msgstr ""
+
+#: geodir_payment_functions.php:1672 language.php:128 language.php:177
+msgid "Package Information"
+msgstr ""
+
+#: geodir_payment_functions.php:1673 language.php:130
+msgid "Coupon"
+msgstr ""
+
+#: geodir_payment_functions.php:1674 language.php:132 language.php:181
+msgid "Discount"
+msgstr ""
+
+#: geodir_payment_functions.php:1675 language.php:136 language.php:183
+msgid "Payable Amount"
+msgstr ""
+
+#: geodir_payment_functions.php:1676 geodir_payment_template_functions.php:676
+#: language.php:138 language.php:167
+msgid "Payment Method"
+msgstr ""
+
+#: geodir_payment_functions.php:1677 language.php:140 language.php:185
+msgid "Date"
+msgstr ""
+
+#: geodir_payment_functions.php:1678 geodir_payment_template_functions.php:19
+#: geodir_payment_template_functions.php:304
+#: geodir_payment_template_functions.php:983
+#: geodir_payment_template_functions.php:1136 language.php:26
+msgid "Status"
+msgstr ""
+
+#: geodir_payment_functions.php:1698 language.php:187
+msgid "ID:"
+msgstr ""
+
+#: geodir_payment_functions.php:1700 language.php:189
+msgid "Amount:"
+msgstr ""
+
+#: geodir_payment_functions.php:1711 language.php:195
+msgid "Paid"
+msgstr ""
+
+#: geodir_payment_functions.php:1712 language.php:197
+msgid "UnPaid"
+msgstr ""
+
+#: geodir_payment_functions.php:1721
+msgid "<b>Total Received: </b>"
+msgstr ""
+
+#: geodir_payment_functions.php:1884 language.php:89
+msgid "Expire"
+msgstr ""
+
+#: geodir_payment_functions.php:2028 geodir_payment_functions.php:2038
+msgid "You have not change this package because its default package for "
+msgstr ""
+
+#: geodir_payment_functions.php:2151
+msgid "Price created successfully."
+msgstr ""
+
+#: geodir_payment_functions.php:2322
+msgid "Coupon code already exists."
+msgstr ""
+
+#: geodir_payment_functions.php:2333
+msgid "Coupon code updated successfully."
+msgstr ""
+
+#: geodir_payment_functions.php:2345
+msgid "Coupon code submitted successfully."
+msgstr ""
+
+#: geodir_payment_functions.php:2392
+msgid "Coupon deleted successfully."
+msgstr ""
+
+#: geodir_payment_functions.php:2472
+msgid "Price method updated successfully."
+msgstr ""
+
+#: geodir_payment_functions.php:2539 language.php:12
+msgid "Price deleted successfully."
+msgstr ""
+
+#: geodir_payment_functions.php:2601 language.php:151
+msgid "Payment Method Updated Succesfully."
+msgstr ""
+
+#: geodir_payment_functions.php:2981 geodir_payment_functions.php:3014
+msgid "Upgrade Listing"
+msgstr ""
+
+#: geodir_payment_functions.php:2983 geodir_payment_functions.php:3017
+msgid "Renew Listing"
+msgstr ""
+
+#: geodir_payment_functions.php:3336 geodir_payment_functions.php:3346
+msgid "Expire listings"
+msgstr ""
+
+#: geodir_payment_functions.php:3430 geodir_payment_functions.php:3466
+msgid "Unknown"
+msgstr ""
+
+#: geodir_payment_functions.php:3434 geodir_payment_functions.php:3470
+msgid "Never"
+msgstr ""
+
+#: geodir_payment_functions.php:3444 geodir_payment_functions.php:3480
+msgid "Expire date: "
+msgstr ""
+
+#: geodir_payment_functions.php:3505
+#, php-format
+msgid "%s year left"
+msgid_plural "%s years left"
+msgstr[0] ""
+msgstr[1] ""
+
+#: geodir_payment_functions.php:3507
+#, php-format
+msgid "%s year overdue"
+msgid_plural "%s years overdue"
+msgstr[0] ""
+msgstr[1] ""
+
+#: geodir_payment_functions.php:3517
+msgid "today"
+msgstr ""
+
+#: geodir_payment_functions.php:3519
+#, php-format
+msgid "%s day left"
+msgid_plural "%s days left"
+msgstr[0] ""
+msgstr[1] ""
+
+#: geodir_payment_functions.php:3521
+#, php-format
+msgid "%s day overdue"
+msgid_plural "%s days overdue"
+msgstr[0] ""
+msgstr[1] ""
+
+#: geodir_payment_functions.php:3580
+msgid "Done"
+msgstr ""
+
+#: geodir_payment_functions.php:3587
+msgid "Fix"
+msgstr ""
+
+#: geodir_payment_manager.php:88
+msgid ""
+"<span style=\"color:#FF0000\">There was an issue determining where "
+"GeoDirectory Plugin is installed and activated. Please install or activate "
+"GeoDirectory Plugin.</span>"
+msgstr ""
+
+#: geodir_payment_template_functions.php:9 language.php:8
+msgid "Geo Directory Manage Price"
+msgstr ""
+
+#: geodir_payment_template_functions.php:10
+#: geodir_payment_template_functions.php:162 language.php:14
+msgid "Add Price"
+msgstr ""
+
+#: geodir_payment_template_functions.php:14 language.php:16
+msgid "Package ID"
+msgstr ""
+
+#: geodir_payment_template_functions.php:15 language.php:18
+msgid "Title"
+msgstr ""
+
+#: geodir_payment_template_functions.php:16 language.php:20
+msgid "Post Type"
+msgstr ""
+
+#: geodir_payment_template_functions.php:18 language.php:24
+msgid "Number Of Days"
+msgstr ""
+
+#: geodir_payment_template_functions.php:20
+#: geodir_payment_template_functions.php:343
+#: geodir_payment_template_functions.php:698 language.php:169
+msgid "Display Order"
+msgstr ""
+
+#: geodir_payment_template_functions.php:21 language.php:28
+msgid "Is Featured"
+msgstr ""
+
+#: geodir_payment_template_functions.php:22
+#: geodir_payment_template_functions.php:571
+#: geodir_payment_template_functions.php:985 language.php:30
+msgid "Action"
+msgstr ""
+
+#: geodir_payment_template_functions.php:50
+#: geodir_payment_template_functions.php:308
+#: geodir_payment_template_functions.php:1012
+#: geodir_payment_template_functions.php:1140 language.php:32
+msgid "Active"
+msgstr ""
+
+#: geodir_payment_template_functions.php:50
+#: geodir_payment_template_functions.php:311
+#: geodir_payment_template_functions.php:1012
+#: geodir_payment_template_functions.php:1143 language.php:34
+msgid "Inactive"
+msgstr ""
+
+#: geodir_payment_template_functions.php:54
+msgid "Edit Location"
+msgstr ""
+
+#: geodir_payment_template_functions.php:54
+msgid "Edit Package"
+msgstr ""
+
+#: geodir_payment_template_functions.php:56
+msgid "Delete Location"
+msgstr ""
+
+#: geodir_payment_template_functions.php:56
+msgid "Delete Package"
+msgstr ""
+
+#: geodir_payment_template_functions.php:125
+#: geodir_payment_template_functions.php:285
+msgid "Day(s)"
+msgstr ""
+
+#: geodir_payment_template_functions.php:126
+#: geodir_payment_template_functions.php:286
+msgid "Week(s)"
+msgstr ""
+
+#: geodir_payment_template_functions.php:127
+#: geodir_payment_template_functions.php:287
+msgid "Month(s)"
+msgstr ""
+
+#: geodir_payment_template_functions.php:128
+msgid "Years(s)"
+msgstr ""
+
+#: geodir_payment_template_functions.php:162 language.php:44
+msgid "Edit Price"
+msgstr ""
+
+#: geodir_payment_template_functions.php:176
+msgid "Price title"
+msgstr ""
+
+#: geodir_payment_template_functions.php:182
+#: geodir_payment_template_functions.php:1075
+msgid "Post type"
+msgstr ""
+
+#: geodir_payment_template_functions.php:202
+msgid "Post fields"
+msgstr ""
+
+#: geodir_payment_template_functions.php:215
+msgid "Price amount"
+msgstr ""
+
+#: geodir_payment_template_functions.php:225
+msgid "Recurring payment?"
+msgstr ""
+
+#: geodir_payment_template_functions.php:234
+msgid " and "
+msgstr ""
+
+#: geodir_payment_template_functions.php:239
+#, php-format
+msgid "(Only supported by %s)"
+msgstr ""
+
+#: geodir_payment_template_functions.php:245 language.php:68
+msgid "Number of Days"
+msgstr ""
+
+#: geodir_payment_template_functions.php:249 language.php:70
+msgid "(set to 0 to never expire)"
+msgstr ""
+
+#: geodir_payment_template_functions.php:261
+msgid "Offer free trial"
+msgstr ""
+
+#: geodir_payment_template_functions.php:262
+msgid "Recuring payment option"
+msgstr ""
+
+#: geodir_payment_template_functions.php:267
+msgid "Offer free trail for"
+msgstr ""
+
+#: geodir_payment_template_functions.php:267 language.php:66
+msgid ""
+"(Allowed Range: Days range 1-90 || Weeks range 1-52 || Months range 1-24 || "
+"Years range 1-5)"
+msgstr ""
+
+#: geodir_payment_template_functions.php:268
+msgid "Renew"
+msgstr ""
+
+#: geodir_payment_template_functions.php:270
+msgid "Daily"
+msgstr ""
+
+#: geodir_payment_template_functions.php:272
+msgid "Weekly"
+msgstr ""
+
+#: geodir_payment_template_functions.php:274
+msgid "Monthly"
+msgstr ""
+
+#: geodir_payment_template_functions.php:276
+msgid "Yearly"
+msgstr ""
+
+#: geodir_payment_template_functions.php:279
+msgid "Every"
+msgstr ""
+
+#: geodir_payment_template_functions.php:288
+msgid "year(s)"
+msgstr ""
+
+#: geodir_payment_template_functions.php:291
+msgid "time(s), (min:2, max:52, blank for no limit)"
+msgstr ""
+
+#: geodir_payment_template_functions.php:292
+msgid ""
+"(Allowed Range: Days range 1-90 || Weeks range 2-52 || Months range 2-24 || "
+"Years range 2-5)"
+msgstr ""
+
+#: geodir_payment_template_functions.php:317
+msgid "Is featured"
+msgstr ""
+
+#: geodir_payment_template_functions.php:330
+msgid "Is default"
+msgstr ""
+
+#: geodir_payment_template_functions.php:347
+msgid "(display sort order on front end package listing)"
+msgstr ""
+
+#: geodir_payment_template_functions.php:352
+msgid "Exclude categories"
+msgstr ""
+
+#: geodir_payment_template_functions.php:357 language.php:78
+msgid "You can only exclude categories once saved."
+msgstr ""
+
+#: geodir_payment_template_functions.php:374 language.php:82
+msgid ""
+"Select multiple categories to exclude by holding down \"Ctrl\" key. <br /"
+">(if removing a parent category, you should remove its child categories."
+msgstr ""
+
+#: geodir_payment_template_functions.php:377
+msgid ""
+"  (It is not recommended to exclude categories from live <br /> packages as "
+"users will not be able to remove that category from the frontend.)"
+msgstr ""
+
+#: geodir_payment_template_functions.php:385 language.php:87
+msgid "Expire, Downgrade to"
+msgstr ""
+
+#: geodir_payment_template_functions.php:397
+msgid "Title to be display while add listing"
+msgstr ""
+
+#: geodir_payment_template_functions.php:401 language.php:93
+msgid "Keep blank to reset default content."
+msgstr ""
+
+#: geodir_payment_template_functions.php:405
+msgid "Image limit"
+msgstr ""
+
+#: geodir_payment_template_functions.php:409 language.php:101
+msgid "(Leave blank for unlimited)"
+msgstr ""
+
+#: geodir_payment_template_functions.php:413
+msgid "Category limit"
+msgstr ""
+
+#: geodir_payment_template_functions.php:417
+msgid "(Leave blank for unlimited, can not be 0(ZERO))"
+msgstr ""
+
+#: geodir_payment_template_functions.php:427
+msgid "Apply description limit?"
+msgstr ""
+
+#: geodir_payment_template_functions.php:434
+msgid "(\"Yes\" to apply description limit)"
+msgstr ""
+
+#: geodir_payment_template_functions.php:439
+msgid "Description limit"
+msgstr ""
+
+#: geodir_payment_template_functions.php:443
+msgid "(Characters limit for listing description, ex: 140)"
+msgstr ""
+
+#: geodir_payment_template_functions.php:448
+msgid "Apply tags limit?"
+msgstr ""
+
+#: geodir_payment_template_functions.php:454
+msgid ""
+"(If set to NO the default limit of 40 will be used. Set to Yes to increase/"
+"decrease)"
+msgstr ""
+
+#: geodir_payment_template_functions.php:459
+msgid "Tags limit"
+msgstr ""
+
+#: geodir_payment_template_functions.php:463
+msgid "(Characters limit for listing tags, ex: 40)"
+msgstr ""
+
+#: geodir_payment_template_functions.php:468
+msgid "Google analytics"
+msgstr ""
+
+#: geodir_payment_template_functions.php:496
+msgid "Hide related listing tab"
+msgstr ""
+
+#: geodir_payment_template_functions.php:504
+msgid "Select \"Yes\" to hide related listing tab on listing detail page."
+msgstr ""
+
+#: geodir_payment_template_functions.php:531
+#: geodir_payment_template_functions.php:762
+#: geodir_payment_template_functions.php:1153 language.php:117
+msgid "Submit"
+msgstr ""
+
+#: geodir_payment_template_functions.php:533
+#: geodir_payment_template_functions.php:763
+#: geodir_payment_template_functions.php:1155 language.php:119
+msgid "Cancel"
+msgstr ""
+
+#: geodir_payment_template_functions.php:560 language.php:149
+msgid "Geo Directory Manage Payment Options"
+msgstr ""
+
+#: geodir_payment_template_functions.php:565 language.php:155
+msgid "Method Name"
+msgstr ""
+
+#: geodir_payment_template_functions.php:567
+#: geodir_payment_template_functions.php:685 language.php:157
+msgid "Is Active"
+msgstr ""
+
+#: geodir_payment_template_functions.php:569 language.php:159
+msgid "Sort Order"
+msgstr ""
+
+#: geodir_payment_template_functions.php:573
+#: geodir_payment_template_functions.php:620
+#: geodir_payment_template_functions.php:663 language.php:161
+msgid "Settings"
+msgstr ""
+
+#: geodir_payment_template_functions.php:612
+#: geodir_payment_template_functions.php:690 language.php:163
+msgid "Deactivate"
+msgstr ""
+
+#: geodir_payment_template_functions.php:615
+#: geodir_payment_template_functions.php:689 language.php:165
+msgid "Activate"
+msgstr ""
+
+#: geodir_payment_template_functions.php:708
+msgid "Mode"
+msgstr ""
+
+#: geodir_payment_template_functions.php:712
+msgid "Live Mode"
+msgstr ""
+
+#: geodir_payment_template_functions.php:713
+msgid "Test Mode (Sandbox)"
+msgstr ""
+
+#: geodir_payment_template_functions.php:767
+msgid "Trouble Shoot"
+msgstr ""
+
+#: geodir_payment_template_functions.php:767
+msgid "Are you wish to change?"
+msgstr ""
+
+#: geodir_payment_template_functions.php:830
+msgid "front"
+msgstr ""
+
+#: geodir_payment_template_functions.php:862
+msgid "View Invoice"
+msgstr ""
+
+#: geodir_payment_template_functions.php:878
+msgid "Delete Invoice"
+msgstr ""
+
+#: geodir_payment_template_functions.php:911
+msgid "Are you sure you want to delete this invoice?"
+msgstr ""
+
+#: geodir_payment_template_functions.php:931
+msgid "Something went wrong."
+msgstr ""
+
+#: geodir_payment_template_functions.php:950
+msgid "Geo Directory Manage Coupons"
+msgstr ""
+
+#: geodir_payment_template_functions.php:962
+msgid "Update"
+msgstr ""
+
+#: geodir_payment_template_functions.php:965
+#: geodir_payment_template_functions.php:1056
+msgid "Add Coupon"
+msgstr ""
+
+#: geodir_payment_template_functions.php:973
+#: geodir_payment_template_functions.php:1069 language.php:238
+msgid "Coupon Code"
+msgstr ""
+
+#: geodir_payment_template_functions.php:975
+#: geodir_payment_template_functions.php:1104
+msgid "Discount Type"
+msgstr ""
+
+#: geodir_payment_template_functions.php:977
+msgid "Discount Amount"
+msgstr ""
+
+#: geodir_payment_template_functions.php:979
+msgid "Post Types"
+msgstr ""
+
+#: geodir_payment_template_functions.php:981
+#: geodir_payment_template_functions.php:1119
+msgid "Recurring"
+msgstr ""
+
+#: geodir_payment_template_functions.php:1002
+msgid "Percentage"
+msgstr ""
+
+#: geodir_payment_template_functions.php:1002
+#: geodir_payment_template_functions.php:1107
+msgid "Amount"
+msgstr ""
+
+#: geodir_payment_template_functions.php:1008
+#: geodir_payment_template_functions.php:1123
+msgid "All payments"
+msgstr ""
+
+#: geodir_payment_template_functions.php:1009
+#: geodir_payment_template_functions.php:1126
+msgid "First payment only"
+msgstr ""
+
+#: geodir_payment_template_functions.php:1020
+#: geodir_payment_template_functions.php:1056
+msgid "Edit Coupon"
+msgstr ""
+
+#: geodir_payment_template_functions.php:1023
+msgid "Delete Coupon"
+msgstr ""
+
+#: geodir_payment_template_functions.php:1106
+msgid "Percentage(%)"
+msgstr ""
+
+#: geodir_payment_template_functions.php:1112
+msgid "Discount Amount ($)"
+msgstr ""
+
+#: geodir_payment_template_functions.php:1129
+msgid "If applied to a recurring price package, how should it apply."
+msgstr ""
+
+#: language.php:10
+msgid "Price updated successfully."
+msgstr ""
+
+#: language.php:36
+msgid "Edit"
+msgstr ""
+
+#: language.php:38
+msgid "Delete"
+msgstr ""
+
+#: language.php:40
+msgid "You must have at least one package."
+msgstr ""
+
+#: language.php:46
+msgid "Price Title"
+msgstr ""
+
+#: language.php:48
+msgid "Price Amount"
+msgstr ""
+
+#: language.php:50
+msgid "Recurring Payment?"
+msgstr ""
+
+#: language.php:52
+msgid "(Only supported by PayPal)"
+msgstr ""
+
+#: language.php:54
+msgid "Units of Duration"
+msgstr ""
+
+#: language.php:56
+msgid "Days"
+msgstr ""
+
+#: language.php:58
+msgid "Weeks"
+msgstr ""
+
+#: language.php:60
+msgid "Months"
+msgstr ""
+
+#: language.php:62
+msgid "Years"
+msgstr ""
+
+#: language.php:64
+msgid "Every X Amount of Units"
+msgstr ""
+
+#: language.php:76
+msgid "Exclude Categories"
+msgstr ""
+
+#: language.php:80
+msgid "SHOW ALL"
+msgstr ""
+
+#: language.php:84
+msgid ""
+"(It is not recommended to exclude categories from live <br /> packages as "
+"users will not be able to remove that category from the frontend.)"
+msgstr ""
+
+#: language.php:91
+msgid "Title to be display while Add Listing"
+msgstr ""
+
+#: language.php:95
+msgid "Features"
+msgstr ""
+
+#: language.php:97
+msgid "(No = Grey out, Yes = Show, Hide = Don't display)"
+msgstr ""
+
+#: language.php:99
+msgid "Image Limit"
+msgstr ""
+
+#: language.php:103
+msgid "Category Limit"
+msgstr ""
+
+#: language.php:105
+msgid "Link Business"
+msgstr ""
+
+#: language.php:107
+msgid "Hide"
+msgstr ""
+
+#: language.php:109
+msgid "Event Features Only"
+msgstr ""
+
+#: language.php:111
+msgid "Recurring Event"
+msgstr ""
+
+#: language.php:113
+msgid "Registration Description"
+msgstr ""
+
+#: language.php:115
+msgid "Registration Fees"
+msgstr ""
+
+#: language.php:124
+msgid "Geo Directory Manage Invoice"
+msgstr ""
+
+#: language.php:134
+msgid "Payment Information"
+msgstr ""
+
+#: language.php:142
+msgid "Invoice update successfully."
+msgstr ""
+
+#: language.php:144
+msgid "Listing"
+msgstr ""
+
+#: language.php:153
+msgid "Payment Method Status Updated Successfully."
+msgstr ""
+
+#: language.php:171
+msgid ""
+"No payment gateways active for this package, please report this to the site "
+"admin."
+msgstr ""
+
+#: language.php:179
+msgid "Coupan"
+msgstr ""
+
+#: language.php:193
+msgid "Na"
+msgstr ""
+
+#: language.php:201
+msgid "Total Recived:"
+msgstr ""
+
+#: language.php:203
+msgid "Processing for paypal, Please wait..."
+msgstr ""
+
+#: language.php:205
+msgid "Processing for 2Checkout, Please wait..."
+msgstr ""
+
+#: language.php:207
+msgid "Processing for Authorize Net, Please wait..."
+msgstr ""
+
+#: language.php:209
+msgid "Processing for Google Wallet, Please wait..."
+msgstr ""
+
+#: language.php:211
+msgid "Processing for WordPay, Please wait..."
+msgstr ""
+
+#: language.php:213
+msgid ""
+"<p>Thanks. The listing has been submitted successfully.</p><p>In order to "
+"publish the listing, kindly transfer amount of <u>[#$order_amt#] </u> in our "
+"bank. Our bank account details are mentioned below.</p><p>Bank Name : [#"
+"$bank_name#]</p><p>Account Number : [#$account_number#]</p><br><p>Please "
+"include the following reference : [#$orderId#]</p><p><a href=\"[#"
+"$submited_listing_link#]\" >View your submitted listing &raquo;</a></"
+"p><br><p>Thanks for listing your listing at [#$store_name#].</p>"
+msgstr ""
+
+#: language.php:215
+msgid "Listing Posted Successfully"
+msgstr ""
+
+#: language.php:217
+msgid "Listing Renewal Successfully"
+msgstr ""
+
+#: language.php:219 language.php:221
+msgid ""
+"<p>Thank you, your information has been successfully received.</p><p><a href="
+"\"[#submited_information_link#]\" >View your submitted information &raquo;</"
+"a></p><p>Thank you for visiting us at [#site_name#].</p>"
+msgstr ""
+
+#: language.php:223
+msgid ""
+"<p>Thank you, your request received successfully.</p><p>To publish the "
+"listing please transfer the amount of <u>[#order_amt#] </u> at our bank with "
+"the following information :</p><p>Account Name : [#bank_name#]</p><p>Account "
+"Sort Code : [#account_sortcode#]</p><p>Account Number : [#account_number#]</"
+"p><br><p>Please include the ID as reference : [#orderId#]</p><p><a href="
+"\"[#submited_information_link#]\" >View your submitted listing</"
+"a><br><p>Thank you for visit at [#site_name#].</p>"
+msgstr ""
+
+#: language.php:225
+msgid "Posting Canceled"
+msgstr ""
+
+#: language.php:227
+msgid ""
+"<h3>Your listing is cancelled. Sorry for cancellation.</h3><h5>Thank you for "
+"visiting us at [#site_name#].</h5>"
+msgstr ""
+
+#: language.php:229
+msgid "Payment Success"
+msgstr ""
+
+#: language.php:231
+msgid ""
+"<h4>Your payment received successfully and your information is published.</"
+"h4><p><a href=\"[#submited_information_link#]\" >View your submitted "
+"information &raquo;</a></p><h5>Thank you for becoming a member at "
+"[#site_name#].</h5>"
+msgstr ""
+
+#: language.php:233
+msgid "Payment Failed"
+msgstr ""
+
+#: language.php:235
+msgid "<h4>There was a problem with your payment.</h4>"
+msgstr ""
+
+#: language.php:237
+msgid "Select Package"
+msgstr ""
+
+#: language.php:239
+msgid "Enter Coupon Code"
+msgstr ""
+
+#: language.php:240
+msgid "Enter coupon code here (optional)"
+msgstr ""
+
+#: language.php:241
+msgid "Renew Now"
+msgstr ""
+
+#: language.php:242
+msgid "Upgrade Now"
+msgstr ""
+
+#: language.php:243
+msgid "Pay & Publish"
+msgstr ""
+
+#: language.php:244
+msgid "Invalid Coupon Code"
+msgstr ""

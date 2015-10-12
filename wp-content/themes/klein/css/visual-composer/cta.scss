@@ -1,0 +1,28 @@
+/*------------------------------------------------*
+ * 5.0 CALL TO ACTION
+ *------------------------------------------------*/
+ .vc_button-2-wrapper {
+ 	display: inline;
+ }
+ 
+ .wpb_call_to_action .wpb_call_text, 
+ #content .wpb_call_to_action .wpb_call_text,
+ .vc_call_to_action h4.wpb_heading {
+ 	font-size: 22px;
+ 	font-style: italic;
+ 	font-weight: normal;
+ 	margin-top: 20px;
+ }
+  .wpb_call_to_action .wpb_call_text, 
+ #content .wpb_call_to_action .wpb_call_text {
+ 	margin-top: 0;
+ }
+
+.wpb_call_text{
+	font-size: 16px;
+}
+
+.wpb_call_to_action{
+	background-color: $cloud;
+	border: none;
+}

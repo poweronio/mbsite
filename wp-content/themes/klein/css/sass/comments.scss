@@ -1,0 +1,198 @@
+/*------------------------------------------------------------------
+  [8. Comments]
+-------------------------------------------------------------------*/
+
+#comments
+{
+    margin-top: 35px; 
+    
+    #cancel-comment-reply-link
+    {
+        color: $red;
+        margin-left: 10px;
+    }
+
+    #respond
+    {
+        padding: 35px 70px;
+
+        @include border-radius(6px);
+        background-color: $cloud;
+    }
+    p
+    {
+        &.logged-in-as,
+        &.comment-notes
+        {
+            margin: 20px 0;
+        }
+    }
+    .comments-area
+    {
+        margin-top: 35px;
+    }
+    .comment-form
+    {
+        display: block;
+        clear: both;
+    }
+    .comment-list
+    {
+         padding-left: 0;
+        clear: both;
+
+        ul,
+        ol
+        {
+            margin: 0;
+
+        }
+        ul.children
+        {
+            .comment-body
+            {
+                padding-left: 75px;
+            }
+            ul.children
+            {
+                .comment-body
+                {
+                    padding-left: 150px;
+                }
+                ul.children
+                {
+                    .comment-body
+                    {
+                        padding-left: 225px;
+                    }
+                    ul.children
+                    {
+                        .comment-body
+                        {
+                            padding-left: 260px;
+                        }
+                        ul.children .comment-body
+                        {
+                            padding-left: 300px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .comment-content
+    {
+        margin: 0;
+
+        list-style: none;
+    }
+    li.comment
+    {
+        margin: 0;
+
+        list-style: none;
+        article
+        {
+            margin-bottom: 35px;
+            padding-bottom: 35px;
+
+            border-bottom: 1px solid $cloud;
+        }
+        &:last-child
+        {
+            article {
+                border-bottom: none;
+                margin-bottom: 0;
+            }
+        }
+    }
+    ul.children li.comment
+    {
+        border-bottom: none;
+    }
+    li.comment time
+    {
+        font-style: italic;
+
+        margin-left: 25px;
+    }
+    #reply-title,
+    .comments-title
+    {
+        display: block;
+
+        margin-bottom: 50px;
+
+        .label {
+            color: $cloud;
+        }
+    }
+    .comment-content
+    {
+        margin: 15px 0 0;
+    }
+    .comment-body
+    {
+        position: relative;
+
+        display: inline-block;
+
+        width: 100%;
+    }
+    .comment-author .avatar
+    {
+        height: auto;
+        @include border-radius(50%);
+    }
+    textarea#comment
+    {
+        width: 100%;
+    }
+    /**
+ * Added New Version 3.0
+ */
+    .comment-author
+    {
+        .edit-link
+        {
+            float: right;
+        }
+        a.comment-edit-link
+        {
+            font-size: 13px;
+
+            margin-top: -10px;
+            padding-top: 12px;
+            
+            color: $cloud_shade;
+            border: 1px solid $cloud;
+            background-color: transparent;
+            width: 42px;
+            text-align: center;
+            height: 42px;
+
+            @include border-radius(50%);
+            &:hover
+            {
+                font-size: 13px;
+
+                margin-top: -10px;
+
+                color: $cloud_shade;
+                border: 1px solid $cloud;
+                
+                background-color: transparent;
+                @include border-radius(50%);
+            }
+        }
+    }
+}
+
+li.pingback
+{
+    list-style: none;
+}
+li.pingback .comment-body
+{
+    margin: 4px 10px 0 82px;
+}

@@ -1,0 +1,30 @@
+/*------------------------------------------------*
+ * 2.0 TAB
+ *------------------------------------------------*/
+ *.wpb_content_element .wpb_tabs_nav li.ui-tabs-active, .wpb_content_element .wpb_tabs_nav li:hover,
+ .wpb_content_element .wpb_accordion_wrapper .wpb_accordion_header, .wpb_content_element.wpb_tabs .wpb_tour_tabs_wrapper .wpb_tab{
+ 	background: $cloud;
+ }
+ .wpb_content_element.wpb_tabs .wpb_tour_tabs_wrapper .wpb_tab {
+ 	padding: 25px;
+ }
+
+.wpb_content_element .wpb_tour_tabs_wrapper .wpb_tabs_nav a, 
+.wpb_content_element .wpb_accordion_header a {
+	padding: 20px;
+	color: $grey;
+
+ 	font-size: 18px;
+ 	font-style: italic;
+}
+
+.wpb_tour .wpb_tour_tabs_wrapper .wpb_tab {
+	padding: 25px;
+	background: $cloud;	
+}
+
+.wpb_accordion .wpb_accordion_wrapper .ui-state-default .ui-icon, 
+.wpb_accordion .wpb_accordion_wrapper .ui-state-active .ui-icon {
+	top: 25px;
+	right: 25px;
+}

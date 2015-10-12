@@ -1,0 +1,37 @@
+v1.0.9
+Inline javascript with /* <![CDATA[ */ breaks JS - FIXED
+Google ads not working with GD Booster - FIXED
+Added filter to the booster out for JS `gd_booster_booster_out_js` - ADDED
+Added filter to the booster out for JS `gd_booster_out` - ADDED
+S2member not compatible with GD Booster - FIXED
+Added fix for this WP bug https://core.trac.wordpress.org/ticket/18525 - FIXED
+
+v1.0.8
+Inline javascript with img src tag breaks JS - FIXED
+
+v1.0.7
+added hook geodir_booster_script_continue - ADDED
+
+v1.0.6
+Can't able to exclude one file when more then one files has same name - FIXED
+JSON objects added using "application/ld+json" break JS - FIXED
+added hook geodir_booster_external_check - ADDED
+
+v1.0.5
+Problem with files that do not have a semicolon at the end - FIXED
+
+v1.0.4
+Style problem with inline style in theme - FIXED
+
+V1.0.3
+Minification scripts can show PHP warnings breaking script - FIXED
+Has a problem to find files when file url start with // and not http - FIXED 
+
+V1.0.2
+does not add JS to file if it contains src in the text even if its in the script or and iframe - FIXED
+added fix for non closing JS files - FIXED
+https file not found problem fixed - FIXED
+
+
+V1.0.0
+* First release

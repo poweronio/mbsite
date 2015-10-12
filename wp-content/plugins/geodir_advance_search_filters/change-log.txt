@@ -1,0 +1,82 @@
+v1.2.6
+Changes made for WPML compatibility - CHANGED
+dbDelta function not running on version clear - FIXED
+
+v1.2.5
+Spinner icon added while performing operation in advance search from - ADDED
+dbDelta function used for db tables creation - CHANGED
+
+v1.2.4
+frontend.min.js file empty (failed to minify) - FIXED
+
+v1.2.3
+Option added to show/hide customise my search form - ADDED
+Custom field with apostrophe sign not translated properly - FIXED
+Autocomplete field "Search For" not working correctly when location is selected - FIXED
+
+v1.2.2
+Search listings not working if Near Me text translated - FIXED
+Blue dot on map and on mobile shows a doubled dot - FIXED
+After changing CPT the collapsable advance search looks messed - FIXED
+RADIO option added for Field Data Type - ADDED
+In advance search for select data type categories options sort by alphabetically - CHANGED
+
+v1.2.1
+More link not working correctly in front end customize my search - FIXED
+Customize my search not loading all options on first load - FIXED
+Not able to translate range text field placeholders in advance search form - FIXED
+Conflicts with the visual composer's front end editor - FIXED
+
+v1.2.0
+class .dropdown changed to .gd-dropdown for theme compatibility - CHANGED
+class .clr changed to .gd-clr to avoid conflict with other plugin & theme style - CHANGED
+
+v1.1.9
+Problem of enqueuing js/css files when plugin folder changed - FIXED
+
+V1.1.8
+Search deselect script can cause JS error if element does not exist - FIXED
+
+V1.1.7
+Option added to add optgroup for SELECT custom field - ADDED
+Added customized deselect search options after search is performed - ADDED
+
+v1.1.6
+Can cause problems with li.dropdown items disapearing on click - FIXED
+User position will update every 30 seconds on page load - CHANGED
+
+v1.1.5
+User marker not shown on map when selecting "Near me" if multilocations not installed - FIXED
+First load location setting hidden if multilocations is not installed - CHANGED
+
+v1.1.4
+Near: Me sometimes not clearing between searches - FIXED
+Autocompleter can sometimes not work for new posts if SQL server time is diffrent to WP time - FIXED
+Near me limitation distance not showing km/miles values - FIXED
+
+v1.1.3
+Reposition compass after images load to avoid missalignment - ADDED
+
+v1.1.2
+if map is not on page when doing near search and selecting autocomplete, error is thrown - FIXED
+CSS changes to help theme compatability and strange alignment issues - FIXED
+
+v1.1.1
+check added to GT Tools for table custom_advance_search_fields - ADDED
+compass icon for near search field can be out of possition - FIXED
+
+v1.1.0
+Check added to see if core GeoDirectory is active before loading the rest of the plugin - ADDED
+Datepicker not working for "filter by date" when customize my search option for events putted on page more then one time - FIXED
+If the search text box wasn't in used '' removed form page title - ADDED
+Option added to display searched parameters with page title in desing>search>Display searched parameters with title - ADDED
+
+v1.0.6
+Database error fixed on listings search page - FIXED
+Blank index.php added to each directory - ADDED
+
+v1.0.5
+JS error of undefined variable on Non admin Geodirectory pages - Fixed
+
+
+

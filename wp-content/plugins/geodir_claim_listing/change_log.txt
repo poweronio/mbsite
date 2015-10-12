@@ -1,0 +1,30 @@
+v1.1.7
+Undefined variable in language.php - FIXED
+
+v1.1.6
+Changes made for WPML compatibility - CHANGED
+
+V1.1.5
+Added CSS class to author link on details sidebar - ADDED
+
+V1.1.4
+dbDelta function used for db tables creation - CHANGED
+
+V1.1.3
+Slashes not stripped from message of claim listing email - FIXED
+
+V1.1.2
+New hook added for author link of verified listings page - ADDED
+
+V1.1.1
+New hook actions added in claim listing form - ADDED
+
+V1.1.0
+WordPres multisite compatability - ADDED
+
+V1.0.6
+Blank index.php added to each directory of plugin - ADDED
+v1.0.5
+When CPT addon installed the dropdown select can be hide some PT becasue of overflow - FIXED
+
+A Notice in backend when claim manager is on and try to Edit a wordpress comment on any geodirectory post type - Fixed

@@ -1,0 +1,8 @@
+MAY 15, 2015
+[3.4]
+-- Added Changelog
+-- Improved Login Modal Close Button on Dark Layout
+-- Improved Footer Aesthetics 
+-- Improved Layout Tabs on Create Group Screen 
+-- Added Anti-Aliasing to body font
+-- Improved Members Alignment

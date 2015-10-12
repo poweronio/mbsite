@@ -1,0 +1,314 @@
+<!doctype html>  
+<!--[if IE 6 ]><html lang="en-us" class="ie6"> <![endif]-->
+<!--[if IE 7 ]><html lang="en-us" class="ie7"> <![endif]-->
+<!--[if IE 8 ]><html lang="en-us" class="ie8"> <![endif]-->
+<!--[if (gt IE 7)|!(IE)]><!-->
+<html lang="en-us"><!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	
+	<title>Frontend Publishing Pro - Starter guide</title>
+	
+	<meta name="description" content="">
+	<meta name="author" content="Hassan Akhtar">
+	<meta name="copyright" content="Hassan Akhtar">
+	<meta name="generator" content="Documenter v2.0 http://rxa.li/documenter">
+	<meta name="date" content="2014-08-08T00:00:00+02:00">
+	
+	<link rel="stylesheet" href="assets/css/documenter_style.css" media="all">
+	<link rel="stylesheet" href="assets/js/google-code-prettify/prettify.css" media="screen">
+	<script src="assets/js/google-code-prettify/prettify.js"></script>
+
+	
+	
+	<script src="assets/js/jquery.js"></script>
+	
+	<script src="assets/js/jquery.scrollTo.js"></script>
+	<script src="assets/js/jquery.easing.js"></script>
+	
+	<script>document.createElement('section');var duration='500',easing='swing';</script>
+	<script src="assets/js/script.js"></script>
+	
+	<style>
+		html{background-color:#EEEEEE;color:#383838;}
+		::-moz-selection{background:#333636;color:#00DFFC;}
+		::selection{background:#333636;color:#00DFFC;}
+		#documenter_sidebar #documenter_logo{background-image:url();}
+		a{color:#008C9E;}
+		.btn {
+			border-radius:3px;
+		}
+		.btn-primary {
+			  background-image: -moz-linear-gradient(top, #008C9E, #006673);
+			  background-image: -ms-linear-gradient(top, #008C9E, #006673);
+			  background-image: -webkit-gradient(linear, 0 0, 0 008C9E%, from(#343838), to(#006673));
+			  background-image: -webkit-linear-gradient(top, #008C9E, #006673);
+			  background-image: -o-linear-gradient(top, #008C9E, #006673);
+			  background-image: linear-gradient(top, #008C9E, #006673);
+			  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#008C9E', endColorstr='#006673', GradientType=0);
+			  border-color: #006673 #006673 #bfbfbf;
+			  color:#FFFFFF;
+		}
+		.btn-primary:hover,
+		.btn-primary:active,
+		.btn-primary.active,
+		.btn-primary.disabled,
+		.btn-primary[disabled] {
+		  border-color: #008C9E #008C9E #bfbfbf;
+		  background-color: #006673;
+		}
+		hr{border-top:1px solid #D4D4D4;border-bottom:1px solid #FFFFFF;}
+		#documenter_sidebar, #documenter_sidebar ul a{background-color:#343838;color:#FFFFFF;}
+		#documenter_sidebar ul a{-webkit-text-shadow:1px 1px 0px #494F4F;-moz-text-shadow:1px 1px 0px #494F4F;text-shadow:1px 1px 0px #494F4F;}
+		#documenter_sidebar ul{border-top:1px solid #212424;}
+		#documenter_sidebar ul a{border-top:1px solid #494F4F;border-bottom:1px solid #212424;color:#FFFFFF;}
+		#documenter_sidebar ul a:hover{background:#333636;color:#00DFFC;border-top:1px solid #333636;}
+		#documenter_sidebar ul a.current{background:#333636;color:#00DFFC;border-top:1px solid #333636;}
+		#documenter_copyright{display:block !important;visibility:visible !important;}
+	</style>
+	
+</head>
+<body class="documenter-project-frontend-publishing-pro">
+	<div id="documenter_sidebar">
+		<a href="#documenter_cover" id="documenter_logo"></a>
+		<ul id="documenter_nav">
+			<li><a class="current" href="#documenter_cover">Start</a></li>
+				
+			<li><a href="#getting_started" title="Getting Started">Getting Started</a></li>
+			<li><a href="#customizing_a_form" title="Customizing A Form">Customizing A Form</a></li>
+			<li><a href="#defining_restrictions_for_a_field" title="Defining Restrictions for a Field">Defining Restrictions for a Field</a></li>
+			<li><a href="#working_with_custom_fields" title="Working with Custom Fields">Working with Custom Fields</a></li>
+			<li><a href="#copyscape" title="CopyScape">CopyScape</a></li>
+			<li><a href="#recaptcha" title="reCaptcha">reCaptcha</a></li>
+			<li><a href="#translation" title="Translation">Translation</a></li>
+			<li><a href="#developers" title="Developers">Developers</a></li>
+
+		</ul>
+		<div id="documenter_copyright">Copyright Hassan Akhtar 2014<br>
+		made with the <a href="http://rxa.li/documenter">Documenter v2.0</a> 
+		</div>
+	</div>
+	<div id="documenter_content">
+	<section id="documenter_cover">
+	<h1>Frontend Publishing Pro</h1>
+	<h2>Starter guide</h2>
+	<div id="documenter_buttons">
+		<a href="http://wpgurus.net/contact/" class="btn btn-primary btn-large">Contact Us</a> 
+	</div>
+	<hr>
+	<ul>
+	<li>created: 08/01/2014</li>
+	<li>latest update: 08/08/2014</li>
+	<li>by: Hassan Akhtar</li>
+	<li><a href="http://wpgurus.net/">wpgurus.net/</a></li>
+	<li>email: <a href="mailto:&#115;&#117;&#112;&#112;&#111;&#114;&#116;&#64;&#119;&#112;&#103;&#117;&#114;&#117;&#115;&#46;&#110;&#101;&#116;">&#115;&#117;&#112;&#112;&#111;&#114;&#116;&#64;&#119;&#112;&#103;&#117;&#114;&#117;&#115;&#46;&#110;&#101;&#116;</a></li>
+	</ul>
+	<p></p>
+	</section>
+	
+	<section id="getting_started">
+	<div class="page-header"><h3>Getting Started</h3><hr class="notop"></div>
+<p>
+	In this section you will learn how to install the plugin and create a simple frontend publishing form with it. Just follow these steps:</p>
+<p>
+	1. Go to Plugins &gt; Add New in your WordPress site&#39;s admin panel and click on the Upload link at the top of the screen.<br>
+	<br>
+	2. Upload the plugin&#39;s zip file. Once the file has been uploaded, activate the plugin.<br>
+	<br>
+	3. Access the plugin control panel located at Plugins &gt; FEP Settings.<br>
+	<br>
+	4. To create a new form just enter a suitable name, description and post type and click &#39;Create Form&#39;. After a few seconds the newly created form should show up on the right side of the screen.</p>
+<p>
+	<a href="assets/images/image_3.jpg"><img alt="Control Panel" src="assets/images/image_3.jpg" style="width: 400px; height: 207px; margin: 0px auto; display: block; box-shadow: 0px 0px 5px #777777;"></a><br>
+	<br>
+	5. The form is now ready for use and can be integrated into any post or page. Just create a new page and add [wpfepp_submission_form form=&quot;X&quot;] in the content area. Replace X with the form ID. The form should look something like this:</p>
+<p>
+	<a href="assets/images/image_1.jpg"><img alt="A sample form created with the plugin" src="assets/images/image_1.jpg" style="width: 400px; height: 572px; margin: 0px auto; display: block; box-shadow: 0px 0px 5px #777777;"></a><br>
+	<br>
+	6. On a different page use the shortcode [wpfepp_post_table form=&quot;X&quot;]. This shortcode will create a list of posts with edit and delete links. The list will contain all the posts of the post type supported by form X.&nbsp; It should look something like this:</p>
+<p>
+	<a href="assets/images/image_2.jpg"><img alt="A list of posts generated by the plugin" src="assets/images/image_2.jpg" style="width: 400px; height: 356px; margin: 0px auto; display: block; box-shadow: 0px 0px 5px #777777;"></a></p>
+</section>
+<section id="customizing_a_form">
+	<div class="page-header"><h3>Customizing A Form</h3><hr class="notop"></div>
+<p>
+	If you want to customize an existing form then here are the basic steps that you need to follow:</p>
+<p>
+	1. Go to Plugins &gt; FEP Settings.</p>
+<p>
+	2. In the list table located at the right side of the screen you will see all your existing forms. Hovering over a form name should make the &#39;Edit&#39; link visible. Click on this link to start modifying the appearance and behavior of the form.</p>
+<p>
+	<a href="assets/images/image_6.jpg"><img alt="List of forms" src="assets/images/image_6.jpg" style="width: 400px; height: 157px; margin: 0px auto; display: block; box-shadow: 0px 0px 5px #777777;"></a></p>
+<p>
+	3. On the next screen you will see a list of form fields. You can drag and drop these fields to rearrange them or click on a field to change its settings.</p>
+<p>
+	<a href="assets/images/image_4.jpg"><img alt="Form settings page" src="assets/images/image_4.jpg" style="width: 400px; height: 215px; margin: 0px auto; display: block; box-shadow: 0px 0px 5px #777777;"></a><br>
+	4. Once you are fully satisfied with your form save your changes and see them in action on the frontend.</p>
+</section>
+<section id="defining_restrictions_for_a_field">
+	<div class="page-header"><h3>Defining Restrictions for a Field</h3><hr class="notop"></div>
+<p>
+	One of the things that sets Frontend Publishing Pro apart from the multitude of form plugins available on the Internet is that it allows you to define restrictions such as word range, maximum links, number of comma separated sections and so on. A post is not created until all the requirements are met.</p>
+<p>
+	To define restrictions for a particular form field:</p>
+<p>
+	1. Go to Plugins &gt; FEP Settings and start editing the form for which you want to define restrictions.</p>
+<p>
+	2. On the next screen click on any field to slide open its settings. In this case we will use the Content field as an example. This is what it looks like on the settings page:</p>
+<p>
+	<a href="assets/images/image_5.jpg"><img alt="" src="assets/images/image_5.jpg" style="width: 400px; height: 322px; margin: 0px auto; display: block; box-shadow: 0px 0px 5px #777777;"></a></p>
+<p>
+	Here you can change the word count range, max links and the HTML tags that you want to be removed automatically before post insertion.</p>
+<p>
+	<strong>IMPORTANT</strong></p>
+<p>
+	There are a few things that you need to keep in mind:</p>
+<p>
+	- If you do not want to define a particular restriction just leave it empty. For instance if you don&#39;t want to set a maximum word count limit then just leave the area empty.</p>
+<p>
+	- HTML tags are removed from submitted content just before it is inserted into the database. No errors are shown to the user. Same goes for nofollowing of links.</p>
+</section>
+<section id="working_with_custom_fields">
+	<div class="page-header"><h3>Working with Custom Fields</h3><hr class="notop"></div>
+<p>
+	If you want to save a user-entered value as post meta then you should create a custom field. Here&#39;s how you can do so:</p>
+<p>
+	1. Go to Plugins &gt; FEP Settings and start editing the form for which you want to create a custom field.</p>
+<p>
+	2. On the right side of the page you will notice a box titled &#39;Custom Fields&#39;. Its looks like this:</p>
+<p>
+	<img alt="" src="assets/images/image_7.jpg" style="width: 268px; height: 260px; margin: 0px auto; display: block; box-shadow: 0px 0px 5px #777777;"></p>
+<p>
+	Enter a label along with a valid meta key and hit the Add button. Your new custom field will show up under the default form fields.</p>
+<p>
+	Let&#39;s say you want to give your users the ability to submit a byline along with each post. All you have to do is create a custom field by entering a label and a valid meta key like &#39;byline&#39; or &#39;about_the_author&#39;. After that you can get the byline for each post by using something like this:</p>
+<pre class="prettyprint lang-php linenums">
+&lt;?php $byline = <code><span style="color: #000000"><span style="color: #0000BB">get_post_meta</span><span style="color: #007700">(&nbsp;</span><span style="color: #0000BB">$post_id</span><span style="color: #007700">, </span>&#39;byline&#39;<span style="color: #007700">, </span><span style="color: #0000BB">true </span><span style="color: #007700">);</span></span></code> ?&gt;</pre>
+</section>
+
+<section id="copyscape">
+	<div class="page-header"><h3>CopyScape</h3><hr class="notop"></div>
+<p>
+	Since version 2.7, Frontend Publishing Pro allows you to pass each submission through CopyScape to make sure that it is completely unique. Here&#39;s how you can start using this feature:</p>
+<p>
+	1. Go to Frontend Publishing Pro &gt; Settings &gt; CopyScape and enter your username and API key in the given fields. These items can be obtained <a href="http://www.copyscape.com/apiconfigure.php#key">here</a>. Please note that this feature will not work unless you purchase some CopyScape credits first.</p>
+<p>
+	<img alt="" src="assets/images/image_8.jpg" style="width: 700px; height: auto; margin: 0px auto; display: block; box-shadow: 0px 0px 5px #777777;"></p>
+<p>
+<p>
+	2. Once you have added your info you can enable the copyscape feature for any form by going to that form&#39;s settings.</p>
+<p>
+	<img alt="" src="assets/images/image_10.jpg" style="width: 700px; height: auto; margin: 0px auto; display: block; box-shadow: 0px 0px 5px #777777;">
+</p>
+<p>
+	3. If you want to add the CopyScape status of each submission in the email sent to you at the time of submission, go to the Emails tab of your form and add the %%COPYSCAPE_STATUS%% placeholder anywhere in the email.
+</p>
+<p>
+	<h2>Things you should know:</h2>
+</p>
+<p>
+	When it comes to CopyScape integration, you have two main options. The first option is to check the user submission each time he or she hits the submit button and show an error to the user in case the CopyScape test fails. The advantage of this approach is that copied content will never make it to your database and you will not have to waste your time deleting it manually. The disadvantage is that a CopyScape credit will get spent everytime the user hits the submit button. The second approach is to check the post quitely and add it to the pending queue if it is copied. Before you activate this feature, you must decide which approach is more suitable for you and change the plugin settings accordingly.
+</p>
+</section>
+
+<section id="recaptcha">
+	<div class="page-header"><h3>reCaptcha</h3><hr class="notop"></div>
+<p>
+	reCaptcha is Google's popular service that allows you to protect your website from automated bots. Frontend Publishing Pro uses the latest version of this service i.e. the no captcha reCaptcha. To add a captcha to your forms you need to follow these steps:
+</p>
+<p>
+	1. Go to Frontend Publishing Pro &gt; Settings &gt; ReCaptcha and enter your site key and secret in the given fields. These items can be obtained <a href="http://www.google.com/recaptcha/admin">here</a>.
+</p>
+<p>
+	<img alt="" src="assets/images/image_9.jpg" style="width: 700px; height: auto; margin: 0px auto; display: block; box-shadow: 0px 0px 5px #777777;">
+</p>
+<p>
+	2. Once you have added your info you can add the captcha to any form by going to that form&#39;s settings.</p>
+<p>
+	<img alt="" src="assets/images/image_10.jpg" style="width: 700px; height: auto; margin: 0px auto; display: block; box-shadow: 0px 0px 5px #777777;">
+</p>
+<p>
+	<h2>Things you should know:</h2>
+</p>
+<p>
+	To ensure a pleasant experience, the users are required to fill in the captcha only once during their interaction with a form. Once they have submitted the form sucessfully (by saving a draft or submitting the post), the captcha will hide automatically until the page is reloaded.
+</p>
+</section>
+
+<section id="translation">
+	<div class="page-header"><h3>Translating the Plugin</h3><hr class="notop"></div>
+	<p>
+		You can easily translate the plugin into your language by using the POT file included in the languages folder. Here are the steps that you will have to follow:
+	</p>
+	<p>
+		1. Open strings.pot located in the languages folder with the help of your translation software (POEdit etc).
+	</p>
+	<p>
+		2. Translate the plugin's strings.
+	</p>
+	<p>
+		3. Save the resulting po/mo files in the lanugages folder. The names of these files should be in this format: wpfepp-plugin-cs_CZ.mo
+	</p>
+</section>
+
+<section id="developers">
+	<div class="page-header"><h3>Developers</h3><hr class="notop"></div>
+<p>
+	Here are the several actions and filters offered by the plugin:</p>
+<h2>
+	Actions:</h2>
+<p>
+	<strong>wpfepp_form_FORMID_fields</strong></p>
+<p>
+	Where <strong>FORMID </strong>is the id of the form that you want to modify. This simple action can be used to add new fields to a form. Here&#39;s a simple example:</p>
+<pre class="prettyprint lang-php linenums">
+function my_fields($current_values){
+    //When the user edits a particular post the $current_values argument contains the values of that post.
+    $user_email = get_post_meta( &#39;user_email&#39;, $current_values[&#39;post_id&#39;] );
+
+    ?&gt;
+        &lt;label&gt;Your Email&lt;/label&gt;
+        &lt;input type=&quot;email&quot; name=&quot;email&quot; value=&quot;&lt;?php echo $user_email; ?&gt;&quot; /&gt;
+    &lt;?
+}
+add_action(&#39;wpfepp_form_1_fields&#39;, &#39;my_fields&#39;);</pre>
+<p>
+	This function will add new field at the bottom of the form.</p>
+<p>
+	<strong>wpfepp_form_FORMID_actions</strong></p>
+<p>
+	Where <strong>FORMID </strong>is the id of the form that you want to modify. This action is performed after a post has been successfully added or updated. You can use it to handle the custom fields added with the help of the previous action hook.</p>
+<p>
+	Continuing the above example:</p>
+<pre class="prettyprint lang-php linenums">
+function my_actions($post_data){
+    // $post_data is the $_POST array from the form. It also contains the post_id
+    $user_email = $post_data[&#39;email&#39;];
+    $subject     = &#39;Thank you for your contribution&#39;;
+    $message     = &#39;Your post has been recieved and will be reviewed by one of our editors soon.&#39;;
+    wp_mail( $user_email, $subject, $message );
+    update_post_meta( $post_data[&#39;post_id&#39;], &#39;user_email&#39;, $user_email );
+}
+add_action(&#39;wpfepp_form_1_actions&#39;, &#39;my_actions&#39;);</pre>
+<h2>
+	Filters:</h2>
+<p>
+	<strong>wpfepp_form_FORMID_safe_tags</strong></p>
+<p>
+	Where <strong>FORMID </strong>is the id of the form that you want to modify. The plugin automatically removes unsafe HTML tags like script, embed and so on. The function used for this purpose is <a href="http://codex.wordpress.org/Function_Reference/wp_kses">wp_kses</a>. If you want to modify the whitelist of HTML tags that are considered safe by the plugin then you can do so with the help of wpfepp_form_FORMID_safe_tags. However you must have an understanding of the <a href="http://codex.wordpress.org/Function_Reference/wp_kses">wp_kses</a> function and how it expects tags and attributes to be formatted.</p>
+<pre class="prettyprint lang-php linenums">
+function my_safe_tags($tags){
+    //Allow the script tag and its type attribute
+    $tags[&#39;script&#39;] = array(
+        &#39;type&#39; =&gt; array()
+    );
+    return $tags;
+}
+add_filter(&#39;wpfepp_form_1_safe_tags&#39;, &#39;wpfepp_ext_tags&#39;);</pre>
+<p>
+	<strong>If you want us to add any other actions and filters just let us know.</strong></p>
+</section>
+
+	</div>
+</body>
+</html>

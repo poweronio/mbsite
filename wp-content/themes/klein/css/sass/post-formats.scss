@@ -1,0 +1,32 @@
+/* Video */
+.listing-video-thumbnail {
+    position: relative;
+}
+    .listing-video-thumbnail .play-icon{
+        position: absolute;
+        display: table;
+        top: 0;
+        font-size: 36px;
+        width: 100%;
+        color: $white;
+    }
+
+    .listing-video-thumbnail .play-icon .fa {
+        display: table-cell;
+        vertical-align: middle;
+        position: relative;
+        top: 15px;
+        left: 15px;
+    }
+
+
+.quote-permalink{
+    margin-left: 15px;
+}
+
+/* Quotes */
+.single .post-format-quote-icon {
+    font-size: 32px;
+    float: left;
+    color: $cloud;
+}
